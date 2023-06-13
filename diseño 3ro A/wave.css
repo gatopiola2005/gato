@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:cursive;
+    height: 150vh;  
+font-family: 'Dancing Script', cursive;
+}
+header{
+    position: relative;
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center; 
+    background-image: linear-gradient(to right, rgba(72, 220, 255, 0.72), rgba(41, 255, 156, 0.5)), url(cat.jpg); 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.contenedor-textos{
+    width: 50%;
+    color:#0e819d;    
+}
+h1{
+    font-weight:  700;
+    font-size: 105px;
+    margin: 30px;
+    text-shadow: 1px 3px 3px #000000;
+}
+img{
+    width: 40%;
+    display: inline-block;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 180px;
+}
